@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #dbe6f6, #c5796d);
+    width: 100%;
+    height: 2040px;
+}
+
+#main-heading {
+    background: brown;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.Personal-details,
+.academic-details,
+.course-details {
+    margin-left: 30px;
+
+}
+
+h2,
+h4 {
+    color: #e65100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    border-left: 4px solid #e65100;
+}
+
+label,
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    padding: 8px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #1a73e8;
+    outline: none;
+    box-shadow: 0 0 5px rgba(26, 115, 232, 0.4);
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #ececec;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.submit {
+    background-color: #007bff;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+.reset {
+    background-color: #e53935;
+    color: white;
+}
+
+.reset:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1a237e;
+    margin-top: 26px;
+    padding-top: 20px;
+    height: 40px;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main-heading">
+        <h1>Student Registration Form</h1>
+    </div>
+
+    <form action="submitted.html">
+        <h2>1. Personal Details</h2>
+        <div class="Personal-details">
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <label for="father">Father's Name:</label><br>
+            <input type="text" id="father" name="name" placeholder="Enter father's name" required><br><br>
+
+            <label for="name">Mother's Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter mother's name"><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" required><br><br>
+
+            <p>Gender:</p><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female">
+
+            <label for="other">Other</label>
+            <input type="radio" id="other"><br><br>
+
+            <label for="category">Category:</label><br>
+            <select id="category">
+                <option value="select">--Select Category--</option>
+                <option value="general">General</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+            </select><br><br>
+
+            <label for="aadhar">Aadhar No. :</label><br>
+            <input type="number" id="aadhar" placeholder="Enter Aadhar No." maxlength="12" required><br><br>
+
+            <label for="mno">Mobile No.:</label><br>
+            <input type="text" id="mno" maxlength="10" placeholder="Enter 10-digit mobile number" required /><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Enter email address" required /><br><br>
+
+            <label for="Address">Full Address:</label><br>
+            <textarea id="Address" rows="3" placeholder="Enter your address"></textarea><br><br>
+
+            <label for="state">State:</label><br>
+            <select id="state" required>
+                <option value="">-- Select State --</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Delhi">Delhi</option>
+            </select><br><br>
+
+            <label for="district">District:</label><br>
+            <select id="district" required>
+                <option value="">-- Select District --</option>
+                <option value="Patna">Patna</option>
+                <option value="Gaya">Gaya</option>
+                <option value="Muzaffarpur">Muzaffarpur</option>
+                <option value="Bhagalpur">Bhagalpur</option>
+            </select><br><br>
+
+        </div>
+        <hr />
+
+        <h2>2. Academic Details</h2>
+        <div class="academic-details">
+            <label for="10board">10th Board:</label><br>
+            <select id="10board">
+                <option value="select">--Select Board--</option>
+                <option value="BSEB">BSEB</option>
+                <option value="CBSE">CBSE</option>
+                <option value="ICSE">ICSE</option>
+            </select><br><br>
+
+            <label for="10thpercentage">10th Percentage:</label><br>
+            <input type="text" id="10thpercentage" placeholder="Enter percentage" /><br><br>
+
+            <label for="twelfthBoard">12th Board:</label><br>
+            <select id="twelfthBoard" required>
+                <option value="">-- Select Board --</option>
+                <option value="BSEB">BSEB</option>
+                <option value="CBSE">CBSE</option>
+                <option value="ICSE">ICSE</option>
+            </select><br><br>
+
+            <label for="12thpercentage">12th Percentage:</label><br>
+            <input type="text" id="12thpercentage" placeholder="Enter percentage" /><br><br>
+
+            <label for="semester">Current Semester:</label><br>
+            <input type="number" id="semester" min="1" max="8" /><br><br>
+
+            <label for="university">University:</label><br>
+            <select id="university" disabled>
+                <option>Bihar Engineering University, Patna</option>
+            </select><br><br>
+
+            <label for="college">College:</label><br>
+            <select id="college">
+                <option value="">-- Select College --</option>
+                <option value="BCE">Bhagalpur College of Engineering</option>
+                <option value="MIT">Muzaffarpur Institute of Technology</option>
+                <option value="NCE">Nalanda College of Engineering</option>
+                <option value="gecs">Goverment Engineering College Siwan</option>
+            </select><br><br>
+
+        </div><hr>
+
+        <!-- ========== Course Details ========== -->
+        <h4>3. Course Details</h4>
+
+        <div class="course-details">
+            <label for="course">Course:</label><br>
+            <select id="course">
+                <option value="">-- Select Course --</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+            </select><br><br>
+
+            <label for="branch">Branch:</label><br>
+            <select id="branch">
+                <option value="">-- Select Branch --</option>
+                <option value="CSE">CSE</option>
+                <option value="CSE(IOT)">CSE (IoT)</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">Mechanical</option>
+            </select><br><br>
+        </div><hr>
+
+        <button type="submit" class="btn submit">Submit</button>
+        <button type="reset" class="btn reset">Reset</button>
+
+
+    </form>
+
+    <footer>
+        <p>&copy; 2025 Rohit Raj. All rights reserved.</p>
+    </footer>
+
+    </div>
+
+    </form>
+
+
+</body>
+
+</html>
